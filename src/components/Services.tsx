@@ -4,7 +4,7 @@ import {
   BarChart4, 
   ClipboardList, 
   ShieldCheck, 
-  Packages 
+  Archive // Заменил Packages на Archive
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -56,7 +56,7 @@ const Services = () => {
       description: "Проверка товара на соответствие заявленным характеристикам и выявление брака"
     },
     {
-      icon: <Packages className="h-6 w-6" />,
+      icon: <Archive className="h-6 w-6" />, // Заменил на иконку Archive
       title: "Кросс-докинг",
       description: "Приемка и отгрузка товаров через склад без размещения в зоне долговременного хранения"
     }
